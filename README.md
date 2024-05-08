@@ -1,8 +1,34 @@
-# React + Vite
+# FitTrack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+FitTrack is a web application designed to help users track their fitness activities, manage their wellness data, and stay motivated on their fitness journey. It provides features such as workout tracking, nutrition logging, wellness monitoring.
 
-Currently, two official plugins are available:
+## Features
+- **Workout Tracking**: Allows users to record their workout sessions, including exercises, sets, reps, and duration.
+- **Nutrition Logging**: Enables users to log their daily nutrition intake, including meals, calories, macronutrients, and water intake.
+- **Wellness Monitoring**: Helps users track their overall wellness by recording sleep duration, stress levels, mood, and other wellness indicators.
+- **Data Visualization**: Provides visual representations of fitness data through charts, graphs, and statistics, allowing users to analyze their progress and make informed decisions.
+  
+## Technologies Used
+- **Frontend**: React.js, Material-UI, Chart.js
+- **Backend**: Node.js, Express.js
+- **Authentication**: JSON Web Tokens (JWT)
+- **Database**: Supabase
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Nikhal-regi/FitTrack
+2. Install dependencies:
+   ```bash
+   cd FitTrack
+   npm install
+## Usage
+1. Start the frontend development server
+   ```bash
+   npm run dev
+2. Access the application in your web browser at localhost
+
+##Author
+
+-Nikhal Regi
