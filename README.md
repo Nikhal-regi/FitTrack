@@ -29,6 +29,6 @@ FitTrack is a web application designed to help users track their fitness activit
    npm run dev
 2. Access the application in your web browser at localhost
 
-##Author
+## Author
 
 -Nikhal Regi
