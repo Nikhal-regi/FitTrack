@@ -57,6 +57,16 @@ const Navbar = () => {
               Chart
             </Link>
           </li>
+          <li>
+            <Link to="/tables" onClick={toggleDrawer}>
+              Tables
+            </Link>
+          </li>
+          <li>
+            <Link to="/form" onClick={toggleDrawer}>
+              Form
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

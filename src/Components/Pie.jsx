@@ -54,7 +54,7 @@ const PieChart = () => {
       "rgb(153, 102, 255)",
     ];
 
-    const wellfare = wellfareData[0]; // Assuming you only expect one row of data
+    const wellfare = wellfareData[wellfareData.length - 1]; // Assuming you only expect one row of data
 
     const [d1, d2, d3, d4, d5, d6, d7] = Object.values(wellfare);
     const data = {
